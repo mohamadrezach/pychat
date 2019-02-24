@@ -52,7 +52,7 @@ def main(server,port,user):
 
 
 if __name__=="__main__":
-	p=OptionParser(usage='%prog -s|--server [server-adress] -p|--port [port_number]')
+	p=OptionParser(usage='%prog -s|--server [server-adress] -p|--port [port_number] -u|--user [nickname]')
 	p.add_option('-s','--server',action='store',dest='server',type='string',help='address of server')
 	p.add_option('-p','--port',action='store',dest='port',type='int',help='port number')
 	p.add_option('-u','--user',action='store',dest='user',type='string',help='your nickname')
